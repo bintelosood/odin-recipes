@@ -11,7 +11,7 @@ h1, h2 {
 }
 
 p {
-    text-align: center;
+    width: 100%;
 } 
 
 .recipe{
@@ -26,6 +26,17 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding: 0%;
+}
+
+#main-container{
+    height: 800px;
+    padding-top: 20px;
+}
+
+.dish-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
