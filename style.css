@@ -1,0 +1,41 @@
+body {
+    background-image: url('images/utensils.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    color: rgb(215, 46, 99);
+    text-align: center;
+    font-weight: 800;
+}
+
+p {
+    text-align: center;
+} 
+
+.recipe{
+    text-align: center;
+    font-size: 24px;
+}
+
+.container{
+    width: 30%;
+    height: auto;
+    background-color: rgb(211,148,148);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:rgb(215, 46, 99)
+}
+
+a:visited{
+    color: brown;
+}
