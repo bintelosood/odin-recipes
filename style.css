@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
 body {
     background-image: url('images/utensils.jpg');
     background-size: cover;
@@ -5,31 +15,61 @@ body {
 }
 
 h1, h2 {
+    margin: 20px;
     color: rgb(215, 46, 99);
     text-align: center;
     font-weight: 800;
 }
 
-p {
-    width: 100%;
-} 
+.menu-links {
+    margin-top: 50px;
+}
 
 .recipe{
+    display: inline-block;
     text-align: center;
     font-size: 24px;
+    width: 197px;  
 }
 
 .container{
-    width: 30%;
+    width: 600px;
     height: auto;
     background-color: rgb(211,148,148);
     margin-left: auto;
     margin-right: auto;
-    padding: 0%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.credits {
+    width: 600px;
+    background-color: rgb(211,148,148);
+    color: rgb(215, 46, 99);
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    padding: 10px;
+}
+
+.socials {
+    width: 600px;
+    background-color: rgb(211,148,148);
+    color: rgb(165, 28, 55);
+    margin: auto;
+    padding: 10px;
+}
+
+button {
+    background-color: brown;
+    padding: 5px;
+    border: 0;
+    border-radius: 4px;
+    display: inline-flex;
 }
 
 #main-container{
-    height: 800px;
+    height: 600px;
     padding-top: 20px;
 }
 
